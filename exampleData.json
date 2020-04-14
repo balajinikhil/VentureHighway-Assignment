@@ -1,0 +1,61 @@
+[
+  {
+    "_id": "5e678b32667666e756dd8d5f",
+    "name": "Venture Highway",
+    "domain": "venturehighway.vc",
+    "description": {
+      "long": "Venture Highway is an early stage venture capital firm that invests in India. Actively invests in sec",
+      "short": "India focused VC firm"
+    },
+    "foundedYear": 2016,
+    "profileLinks": {
+      "linkedIn": "https://linkedin.com/company/venture-highway-llp",
+      "twitter": "http://twitter.com/venturehighway"
+    },
+    "sectors": ["Investment Industry"],
+    "tags": ["VC", "Early Stage Fund"]
+  },
+
+  {
+    "_id": "5e4b9d217ad938964dc24e61",
+    "name": "GIFSKEY",
+    "domain": "gifskey.com",
+    "description": {
+      "short": "Image-based search engine for GIFs"
+    },
+    "foundedYear": 2017,
+    "fundingInfo": {
+      "numberOfFundingRounds": 1,
+      "fundingRoundList": [
+        {
+          "id": "bij5GmZC9fkUuCsBjspHWWM_DTxAB7hjpaKCA6j1GsM",
+          "amount": {
+            "currency": "USD",
+            "amount": 1000000
+          },
+          "date": {
+            "day": 5,
+            "month": 2,
+            "year": 2019
+          }
+        }
+      ],
+      "latestRoundInfo": {
+        "isKeyFundingRound": false,
+        "id": "5c5d46e28f08dd6a7f6717e8",
+        "amount": {
+          "currency": "USD",
+          "amount": 1000000
+        }
+      }
+    },
+    "sectors": [
+      "Consumer",
+      "Media & Entertainment",
+      "Geo - India Tech",
+      "Colleges",
+      "Generic Company Lists"
+    ],
+    "tags": ["VH Recommended", "Top Founders"]
+  }
+]
