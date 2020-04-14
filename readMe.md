@@ -1,8 +1,9 @@
-'/api/v1/data' GET - to get all the data
-'/api/v1/data' POST - to add data
+## '/api/v1/data' GET - to get all the data
 
-# Model - Holds data schema
+## '/api/v1/data' POST - to add data
 
-# Controller - Holds get and post controllers
+### Model - Holds data schema
 
-# Routes - Holds api route handling
+### Controller - Holds get and post controllers
+
+### Routes - Holds api route handling
