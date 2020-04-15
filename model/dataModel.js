@@ -11,8 +11,14 @@ const dataSchema = new mongoose.Schema({
     default: null,
   },
   description: {
-    long: String,
-    short: String,
+    long: {
+      type: String,
+      default: null,
+    },
+    short: {
+      type: String,
+      default: null,
+    },
   },
   foundedYear: {
     type: Number,
@@ -26,44 +32,51 @@ const dataSchema = new mongoose.Schema({
     fundingRoundList: [
       {
         amount: {
-          currency: String,
-          amount: Number,
+          currency: { type: String, default: null },
+          amount: { type: Number, default: null },
         },
         date: {
-          day: Number,
-          month: Number,
-          year: Number,
+          day: { type: Number, default: null },
+          month: { type: Number, default: null },
+          year: { type: Number, default: null },
         },
       },
     ],
     latestRoundInfo: {
-      isKeyFundingRound: Boolean,
+      isKeyFundingRound: { type: Boolean, default: null },
       amount: {
-        currency: String,
-        amount: Number,
+        currency: { type: String, default: null },
+        amount: { type: Number, default: null },
       },
     },
-    investorInfo: Object,
+    investorInfo: { type: Object, default: null },
   },
 
   profileLinks: {
     linkedIn: {
       type: String,
+      default: null,
     },
     twitter: {
       type: String,
+      default: null,
     },
   },
   sectors: [
     {
       type: String,
+      default: null,
     },
   ],
   tags: [
     {
       type: String,
+      default: null,
     },
   ],
+  __v: {
+    select: false,
+  },
 });
 
 const Data = mongoose.model("data", dataSchema);
